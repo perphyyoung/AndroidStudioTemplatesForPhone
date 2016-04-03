@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.perphy.templates.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/hello_world"/>
+
+    <Button
+        android:id="@+id/btnBasicActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_basic"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnFullscreenActivity"
+        android:text="@string/title_activity_fullscreen"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnLoginActivity"
+        android:text="@string/title_activity_login"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnMasterDetailFlowActivity"
+        android:text="@string/title_item_list"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnNavigationDrawerActivity"
+        android:text="@string/title_activity_navigation_drawer"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnScrollingActivity"
+        android:text="@string/title_activity_scrolling"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnSettingsActivity"
+        android:text="@string/title_activity_settings"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnTabbedActivity"
+        android:text="@string/title_activity_tabbed"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
