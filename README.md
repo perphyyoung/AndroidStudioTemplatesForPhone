@@ -13,7 +13,7 @@ This repository includes several templates available for phone, provided by Andr
 * Tabbed Activity
 
 ### Screenshot
-![] (https://github.com/perphyyoung/AndroidStudioTemplatesForPhone/blob/master/screenshot/screenshot-small.png)
+![screenshot] (screenshot/screenshot-small.png)
 
 ### Debug apk
 [templates-debug.apk][templates-debug.apk]
